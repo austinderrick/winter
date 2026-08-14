@@ -11,7 +11,7 @@ use Winter\Storm\Filesystem\Definitions as FileDefinitions;
  * @package winter\wn-cms-module
  * @author Alexey Bobkov, Samuel Georges
  *
- * @method static \Winter\Storm\Halcyon\Builder sortBy(string $column, string $direction = 'asc')
+ * @method static \Cms\Classes\CmsObjectCollection sortBy(callable|string $callback, int $options = SORT_REGULAR, bool $descending = false)
  */
 class Page extends CmsCompoundObject
 {

@@ -19,7 +19,7 @@ use ApplicationException;
  * @package winter\wn-cms-module
  * @author Alexey Bobkov, Samuel Georges
  *
- * @method \Winter\Storm\Halcyon\Collection get(array $columns = ['*'])
+ * @method \Cms\Classes\CmsObjectCollection get(array $columns = ['*'])
  */
 class CmsCompoundObject extends CmsObject
 {
